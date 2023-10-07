@@ -1,18 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Chat Interface</title>
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <title>My Web App</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
 </head>
 <body>
-    <div id="chat-box">
-        <div id="messages">
-            <!-- Qui verranno visualizzati i messaggi della chat -->
-        </div>
-        <input type="text" id="user-input" placeholder="Scrivi un messaggio...">
-        <button id="send-button">Invia</button>
+    <div class="container">
+        <button id="color-button">Cambia Colore</button>
     </div>
-    <div id="response"></div>
-    <script src="{{ url_for('static', filename='main.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
 </body>
 </html>
