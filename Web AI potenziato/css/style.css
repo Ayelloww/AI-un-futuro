@@ -1,0 +1,47 @@
+
+h1{
+    font-family: 'Merriweather', serif;
+}
+
+/* DA CANCELLARE SE NON SERVONO
+.round-button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+    border: none;
+}
+
+.round-button:hover {
+    background-color: darkred;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+*/
+
+header {
+    background-color: #333; /* Colore di sfondo dell'header */
+    color: #fff; /* Colore del testo nell'header */
+    padding: 10px; /* Spaziatura interna dell'header */
+    display: flex; /* Imposta il display del contenuto header come flessibile */
+    justify-content: space-between; /* Allinea gli elementi all'interno dell'header a destra */
+}
+
+/* Stile per il logo rotondo */
+.logo {
+    width: 50px; /* Larghezza dell'immagine del logo */
+    height: 50px; /* Altezza dell'immagine del logo */
+    border-radius: 50%; /* Imposta il bordo rotondo */
+    margin-right: 20px; /* Margine a destra per separare il logo dal contenuto dell'header */
+}

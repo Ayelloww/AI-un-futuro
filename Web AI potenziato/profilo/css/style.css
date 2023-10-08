@@ -1,0 +1,20 @@
+.imgPersonale{
+    width: 20%;
+    margin-top: 2%;
+}
+
+header {
+    background-color: #333; /* Colore di sfondo dell'header */
+    color: #fff; /* Colore del testo nell'header */
+    padding: 10px; /* Spaziatura interna dell'header */
+    display: flex; /* Imposta il display del contenuto header come flessibile */
+    justify-content: space-between; /* Allinea gli elementi all'interno dell'header a destra */
+}
+
+/* Stile per il logo rotondo */
+.logo {
+    width: 50px; /* Larghezza dell'immagine del logo */
+    height: 50px; /* Altezza dell'immagine del logo */
+    border-radius: 50%; /* Imposta il bordo rotondo */
+    margin-right: 20px; /* Margine a destra per separare il logo dal contenuto dell'header */
+}
